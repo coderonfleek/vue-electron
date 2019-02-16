@@ -11,7 +11,7 @@ console.log(clientId);
 
 const redirectUri = `file:///callback`;
 
-const keytarService = "electron-openid-oauth";
+const keytarService = "vue-electron";
 const keytarAccount = os.userInfo().username;
 
 let accessToken = null;
@@ -123,16 +123,11 @@ async function logout() {
   refreshToken = null;
 }
 
-function sayHi(params) {
-  console.log("Hey");
-}
-
 export default {
   getAccessToken,
   getAuthenticationURL,
   getProfile,
   loadTokens,
   logout,
-  refreshTokens,
-  sayHi
+  refreshTokens
 };

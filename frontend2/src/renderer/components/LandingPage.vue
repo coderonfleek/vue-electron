@@ -59,7 +59,6 @@ export default {
     },
     async fetchTodos() {
       console.log(authService.getAccessToken());
-      console.log(authService.sayHi());
 
       let accessToken = await authService.refreshTokens();
 
