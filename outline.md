@@ -1,32 +1,42 @@
-# Build a TODO List with Electron, Vue and Auth0
+# Building Desktop Applications with Vue.js and Electron
 
-## **TL:DR:**
+**TL;DR:**
 
 ## Prerequisites
 
-## Creating the TODO List API
-
-### Create the Auth0 application
-
-### Installing dependencies
-
-### The todos route
-
-### Setting up the server
-
 ## Creating the Frontend with Vue and Electron
 
-### The `electron-vue` package
-
 ### Create an `electron-vue` project
+
+### Running the application
+
+## Creating the To-Do List API
+
+### Setting up a simple node API project
+
+### Running the API
+
+## Consuming the API from the Desktop Application
+
+### The To-Do List page
+
+### Fetching the To-Do list from the API
+
+### Displaying the To-Do list
+
+## Securing the API
+
+### Create the Auth0 API
+
+### Configuring the API with your Auth0 credentials
+
+## Adding Authentication to our Desktop Application
 
 ### Installing dependencies
 
 ### Creating the application services
 
-### The main process
-
-### The TODO List page
+### Securing the desktop application with Auth0
 
 ## Running the Application
 
